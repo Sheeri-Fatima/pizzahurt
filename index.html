@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pizza Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+    <div class="nav-items-new">
+      <div class="logo">🍕PizzaPoint</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#testimonial">Testimonial</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">&#9776;</div>
+    
+    </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <img src="./images/pizzabanner.jpg" alt="image not found">
+    <div class="hero-content">
+      <h1>Hot & Fresh Pizzas </h1>
+      <p>Delivered in 30 minutes. Taste the best slice in town!</p>
+      <button id="orderNowBtn">Order Now</button>
+   </div>
+  </section>
+
+  <!-- Pizza Image Slider -->
+  <section class="pizza-slider" id="slider">
+    <h2>Our Best-Selling Pizzas</h2>
+    <div class="slider-wrapper">
+      <button class="slider-btn left" id="prevBtn">&#10094;</button>
+
+      <div class="slider-container" id="sliderContainer">
+        <img src="./images/pizza9.jpg" alt="Pizza 1">
+       <img src="./images/pizza10.jpg" alt="Pizza 2">
+        <img src="./images/pizza11.jpg" alt="Pizza 3">
+        <img src="./images/pizza12.jpg" alt="Pizza 4">
+        <img src="./images/pizza13.jpg" alt="Pizza 5">
+        <img src="./images/pizza14.jpg" alt="Pizza 6">
+        <img src="./images/pizza8.jpg"  alt="Pizza 7">
+        <img src="./images/pizza4.jpg"  alt="Pizza 9">
+        <img src="./images/pizza15.jpg" alt="Pizza 10">
+        <img src="./images/pizza16.jpg" alt="Pizza 11">
+        <img src="./images/pizza17.jpg" alt="Pizza 12">
+        <img src="./images/pizza18.jpg" alt="Pizza 13">
+      </div>
+
+      <button class="slider-btn right" id="nextBtn">&#10095;</button>
+    </div>
+  </section>
+
+  <!--  Menu Section -->
+  <section class="menu" id="menu">
+    <h2 class="menu-heading">Our Best Pizzas</h2>
+    <div class="menu-container">
+     <!-- Pizza Card 1 -->
+      <div class="pizza-card">
+        <img src="./images/pizza1.jpg" alt="Margherita Pizza">
+        <h3>Margherita</h3>
+        <p>Classic delight with 100% real mozzarella cheese.</p>
+
+        <!-- ⭐ Rating -->
+        <div class="rating-stars">
+          <i class="fa-regular fa-star" data-value="1"></i>
+          <i class="fa-regular fa-star" data-value="2"></i>
+          <i class="fa-regular fa-star" data-value="3"></i>
+          <i class="fa-regular fa-star" data-value="4"></i>
+          <i class="fa-regular fa-star" data-value="5"></i>
+        </div>
+
+        <span class="price">₹199</span>
+        <button class="order-btn">Order Now</button>
+      </div>
+
+      <div class="pizza-card">
+       <img src="./images/pizza2.jpg" alt="Pepperoni Pizza">
+        <h3>Pepperoni</h3>
+        <p>Loaded with spicy pepperoni and extra cheese.</p>
+        <div class="rating-stars">
+          <i class="fa-regular fa-star" data-value="1"></i>
+          <i class="fa-regular fa-star" data-value="2"></i>
+          <i class="fa-regular fa-star" data-value="3"></i>
+          <i class="fa-regular fa-star" data-value="4"></i>
+          <i class="fa-regular fa-star" data-value="5"></i>
+        </div>
+        <span class="price">₹249</span>
+        <button class="order-btn">Order Now</button>
+      </div>
+      <div class="pizza-card">
+       <img src="./images/pizza3.jpg" alt="Pepperoni Pizza">
+        <h3>Pepperoni</h3>
+        <p>Loaded with spicy pepperoni and extra cheese.</p>
+        <div class="rating-stars">
+          <i class="fa-regular fa-star" data-value="1"></i>
+          <i class="fa-regular fa-star" data-value="2"></i>
+          <i class="fa-regular fa-star" data-value="3"></i>
+          <i class="fa-regular fa-star" data-value="4"></i>
+          <i class="fa-regular fa-star" data-value="5"></i>
+        </div>
+        <span class="price">₹249</span>
+        <button class="order-btn">Order Now</button>
+      </div>
+      <div class="pizza-card">
+       <img src="./images/pizza4.jpg" alt="Pepperoni Pizza">
+        <h3>Pepperoni</h3>
+        <p>Loaded with spicy pepperoni and extra cheese.</p>
+        <div class="rating-stars">
+          <i class="fa-regular fa-star" data-value="1"></i>
+          <i class="fa-regular fa-star" data-value="2"></i>
+          <i class="fa-regular fa-star" data-value="3"></i>
+          <i class="fa-regular fa-star" data-value="4"></i>
+          <i class="fa-regular fa-star" data-value="5"></i>
+        </div>
+        <span class="price">₹249</span>
+        <button class="order-btn">Order Now</button>
+      </div>
+      <div class="pizza-card">
+       <img src="./images/pizza5.jpg" alt="Pepperoni Pizza">
+        <h3>Pepperoni</h3>
+        <p>Loaded with spicy pepperoni and extra cheese.</p>
+        <div class="rating-stars">
+          <i class="fa-regular fa-star" data-value="1"></i>
+          <i class="fa-regular fa-star" data-value="2"></i>
+          <i class="fa-regular fa-star" data-value="3"></i>
+          <i class="fa-regular fa-star" data-value="4"></i>
+          <i class="fa-regular fa-star" data-value="5"></i>
+        </div>
+        <span class="price">₹249</span>
+        <button class="order-btn">Order Now</button>
+      </div>
+      <div class="pizza-card">
+       <img src="./images/pizza6.jpg" alt="Pepperoni Pizza">
+        <h3>Pepperoni</h3>
+        <p>Loaded with spicy pepperoni and extra cheese.</p>
+        <div class="rating-stars">
+          <i class="fa-regular fa-star" data-value="1"></i>
+          <i class="fa-regular fa-star" data-value="2"></i>
+          <i class="fa-regular fa-star" data-value="3"></i>
+          <i class="fa-regular fa-star" data-value="4"></i>
+          <i class="fa-regular fa-star" data-value="5"></i>
+        </div>
+        <span class="price">₹249</span>
+        <button class="order-btn">Order Now</button>
+      </div>
+      <div class="pizza-card">
+       <img src="./images/pizza7.jpg" alt="Pepperoni Pizza">
+        <h3>Pepperoni</h3>
+        <p>Loaded with spicy pepperoni and extra cheese.</p>
+        <div class="rating-stars">
+          <i class="fa-regular fa-star" data-value="1"></i>
+          <i class="fa-regular fa-star" data-value="2"></i>
+          <i class="fa-regular fa-star" data-value="3"></i>
+          <i class="fa-regular fa-star" data-value="4"></i>
+          <i class="fa-regular fa-star" data-value="5"></i>
+        </div>
+        <span class="price">₹249</span>
+        <button class="order-btn">Order Now</button>
+      </div>
+      <div class="pizza-card">
+       <img src="./images/pizza8.jpg" alt="Pepperoni Pizza">
+        <h3>Pepperoni</h3>
+        <p>Loaded with spicy pepperoni and extra cheese.</p>
+        <div class="rating-stars">
+          <i class="fa-regular fa-star" data-value="1"></i>
+          <i class="fa-regular fa-star" data-value="2"></i>
+          <i class="fa-regular fa-star" data-value="3"></i>
+          <i class="fa-regular fa-star" data-value="4"></i>
+          <i class="fa-regular fa-star" data-value="5"></i>
+        </div>
+        <span class="price">₹249</span>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+  </section>
+  
+  <!--  About Us Section -->
+  <section class="about" id="about">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>About Us</h2>
+        <p>
+          Welcome to <strong>PizzaPoint</strong> — where tradition meets taste! 🍕<br><br>
+          We've been serving up handcrafted pizzas since 2010 with recipes that bring together authentic Italian flavors and local freshness. Our mission is to deliver happiness with every slice.
+        </p>
+        <p>
+          <b>What makes us different ?</b>
+          <ul>
+            <li>✔️ 100% Fresh Ingredients</li>
+            <li>✔️ Homemade Dough Prepared Daily</li>
+            <li>✔️ Customizable Pizzas with Toppings You Love</li>
+            <li>✔️ Hygienic Kitchens & Fast Delivery</li>
+          </ul>
+        </p>
+        <p>
+          Whether you're craving a classic Margherita or a loaded Pepperoni Feast, PizzaPoint has you covered. Order online or visit our outlet to experience the true taste of happiness.
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="./images/about.jpg" alt="About PizzaPoint">
+      </div>
+    </div>
+  </section>
+
+  <!--  Testimonials Section -->
+  <section class="testimonials" id="testimonial">
+    <h2 class="testimonial-heading">What Our Customers Say</h2>
+    <div class="testimonial-container">
+
+      <!-- Testimonial Card 1 -->
+      <div class="testimonial-card">
+        <p>“Absolutely love their pepperoni pizza! Always hot and fresh, and the crust is just perfect. 10/10!”</p>
+        <h4>- Ayesha Malik</h4>
+      </div>
+
+      <!-- Testimonial Card 2 -->
+      <div class="testimonial-card">
+        <p>“PizzaPoint is my go-to place for Friday nights. The delivery is fast and the cheese is divine!”</p>
+        <h4>- Rahul Sharma</h4>
+      </div>
+
+      <!-- Testimonial Card 3 -->
+      <div class="testimonial-card">
+       <p>“Best vegetarian pizzas in town! I love the fresh toppings and the crispy base.”</p>
+        <h4>- Sneha Verma</h4>
+      </div>
+
+    </div>
+  </section>
+
+  <!--CTA Section -->
+  <section class="cta" id="order">
+    <h2>Craving a Pizza?</h2>
+    <p>Get your favorite pizza delivered hot & fresh in 30 minutes!</p>
+    <button class="cta-btn">Order Now</button>
+  </section>
+
+  <!-- Order Form Section -->
+  <section class="order-form-section" id="contact">
+    <h2>Place Your Order</h2>
+    <form class="order-form">
+      <input type="text" placeholder="Your Name" required>
+     <input type="tel" placeholder="Phone Number" required>
+      <select required>
+        <option value="">Choose Pizza</option>
+        <option>Margherita</option>
+        <option>Pepperoni</option>
+        <option>Veggie</option>
+      </select>
+      <input type="number" placeholder="Quantity" min="1" required>
+      <button type="submit">Submit Order</button>
+    </form>
+    <!-- Order Confirmation Message -->
+    <div id="orderConfirmation" class="order-success hidden">
+      🎉 Thank you! Your order has been placed successfully.
+    </div>
+  </section>
+  <script src="script.js"></script> 
+</body>
+
+<!--Floating Contact Button -->
+<div class="floating-contact">
+  <a href="https://wa.me/91XXXXXXXXXX" target="_blank" class="whatsapp-btn" title="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="tel:+91XXXXXXXXXX" class="call-btn" title="Call Now">
+    <i class="fas fa-phone-alt"></i>
+  </a>
+</div>
+
+</html>
