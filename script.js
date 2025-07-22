@@ -58,7 +58,7 @@ function clearHighlight(stars) {
   });
 }
 
-// oder configuration
+// order configuration
 const orderForm = document.querySelector(".order-form");
 const confirmationMessage = document.getElementById("orderConfirmation");
 
